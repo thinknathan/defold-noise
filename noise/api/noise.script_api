@@ -1,0 +1,33 @@
+- name: noise
+  type: table
+	desc: "A native extension for Defold for generating noise."
+  members:
+  - name: noise_2d
+    type: function
+    desc: "Generates 2D noise at a given coordinate."
+    returns:
+    - name: result
+      type: number
+    parameters:
+    - name: x
+      type: number
+    - name: y
+      type: number
+
+  - name: fractal_noise
+    type: function
+    desc: "Generates fractal noise with multiple octaves, lacunarity, and gain."
+    returns:
+    - name: result
+      type: number
+    parameters:
+    - name: x
+      type: number
+    - name: y
+      type: number
+    - name: octaves
+      type: number
+    - name: lacunarity
+      type: number
+    - name: gain
+      type: number

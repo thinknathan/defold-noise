@@ -1,0 +1,22 @@
+{
+	"name": "@types/defold-noise",
+	"version": "1.0.0",
+	"description": "Types for Defold noise extension",
+	"license": "CC0-1.0",
+	"files": [
+		"**/*.d.ts"
+	],
+	"types": "./@types/noise-1.0.0.d.ts",
+	"main": "./@types/noise",
+	"scripts": {
+		"check": "tsc --noEmit",
+		"prettier": "prettier \"./**/*.{eslintrc,yml,json,ts,md,d.ts}\" --write"
+	},
+	"devDependencies": {
+		"prettier": "^3.0.0",
+		"typescript": "~5.2.2"
+	},
+	"peerDependencies": {
+		"typescript-to-lua": ">=1.0.0"
+	}
+}

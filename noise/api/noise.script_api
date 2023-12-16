@@ -1,6 +1,6 @@
 - name: noise
   type: table
-	desc: "A native extension for Defold for generating noise."
+  desc: "A native extension for Defold for generating noise."
   members:
   - name: noise_2d
     type: function
